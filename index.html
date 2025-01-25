@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo secreto</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-div">
+            <img src="assets/images/chico.png" alt="Amigo">
+            <p class="amigo">Amigo Secreto</p>
+            <img src="assets/images/chica.png" alt="Amigo">
+        </div>
+    </header>
+    <main>
+        <div class="content">
+            <p id="pf_titulo">Agrega el nombre de tu amigo</p>
+            <div id="agregar-nombre" class="content__agregar-nombres">
+                <input id="input-amigo" type="text">
+                <button id="agregar" onclick="agregarAmigo()">AGREGAR</button>
+            </div>
+            <div class="content__amigos" id="content__amigos">
+
+            </div>
+            <div class="content__sortear-amigo">
+                <button id="sortear" onclick="sortearAmigo()">SORTEAR AMIGO</button>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/apps.js"></script>
+</body>
+</html>
