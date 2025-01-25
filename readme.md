@@ -75,5 +75,5 @@ Lógica que controla las funcionalidades principales de la aplicación:
 
 ---
 
-## 🌟 Créditos
+## 🌟 Créditos - Luis Enrique Mottoo ©️ 2025
 Creado con HTML, CSS y JavaScript para una experiencia interactiva y atractiva. ¡Disfruta sorteando a tus amigos! 🎁
